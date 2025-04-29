@@ -31,8 +31,7 @@ gc()
 i <- NULL
 
 # Outcomes =====
-Outcomes_list_tValue <- list.files(path = 
-                                     "Methods/Outcomes/")
+Outcomes_list_tValue <- list.files(path = "Methods/Outcomes/")
 Outcomes_tValue <- list()
 
 for (i in seq_along(Outcomes_list_tValue)) {
